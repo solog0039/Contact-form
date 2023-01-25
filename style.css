@@ -745,16 +745,18 @@ input:last-child:hover {
   display: flex;
   margin-top: 100px;
   margin-bottom: 10px;
-  border-top: 1px solid #dfe1e6;
-  margin-left: 20vw;
+  margin-left: 0;
+  height: 40px;
+  align-items: center;
+  border-top: 1px solid  #dfe1e6;
 }
 
-.social-links > li {
-  padding-left: 13px;
+.social-c {
+  padding-left: 15px;
 }
 
-.socia-git {
-  padding-left: 30px;
+.social-git {
+  margin-left: 25vw;
 }
 
 .social-Linkdinf {
