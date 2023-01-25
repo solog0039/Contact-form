@@ -681,8 +681,7 @@ ul.Sk-list {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  margin-left: 10px;
-  margin-right: 20px;
+  padding: 90px 10px 40px 10px;
 }
 
 input {
@@ -739,23 +738,25 @@ input:last-child:hover {
 .footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .social-links {
-  margin-left: 28%;
   display: flex;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-top: 1px solid #dfe1e6;
+  margin-left: 20vw;
 }
 
 .social-links > li {
-  margin-right: 30px;
+  padding-left: 13px;
+}
+
+.socia-git {
+  padding-left: 30px;
 }
 
 .social-Linkdinf {
   opacity: 1;
-}
-
-hr:first-child {
-  background-color: #dfe1e6;
-  margin-top: 100px;
-  margin-bottom: 20px;
 }
