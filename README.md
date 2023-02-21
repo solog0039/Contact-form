@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Contact form</b></h3>
+  <h3><b>Portfolio: finish mobile version</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,9 +27,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Contact form<a name="about-project"></a>
+# 📖 Portfolio: finish mobile version <a name="about-project"></a>
 
-Portfolio: Adding Contact form to finish mobile version  project is the third part of my portiflio .
+Portfolio: finish mobile version  project is the second part of my portiflio .
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,14 +51,12 @@ Portfolio: Adding Contact form to finish mobile version  project is the third pa
 ### Key Features <a name="key-features"></a>
 
 - linter setup
-- HTML, CSS and form file creation
+- HTML and CSS file creation
 - creating the work and about me sections of my mobile version portiflio
 <p align="right">
 (<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
 
   > None
 
@@ -87,12 +85,15 @@ Copy the projects URL from github then clone from your code editor
 Install almost all dependencies.
 This one will install stylelinter:
 
-> npm install --save-dev
-> stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+> npm install
 
 ### Usage
 
-To run the project, execute in live server.
+To run this project:
+ 1. open the whole project in VS code 
+ 2. right click on the HTML file
+ 3. select the "open with live server" option.
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -109,8 +110,7 @@ To run the project, execute in live server.
 
 - [] HTML file
 - [] CSS file
-- [] Toolbar and headline
-- [] Form file
+- [] Toolbar and headline 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

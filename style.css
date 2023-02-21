@@ -1,25 +1,25 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   src: url(./assets/fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   src: url(./assets/fonts/CreteRound-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   src: url(./assets/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url(./assets/fonts/Inter-VariableFont_slntwght.ttf);
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
 }
 
 @font-face {
-  font-family: "InaiMathi";
+  font-family: 'InaiMathi';
   src: url(./assets/fonts/Murasuit.ttf);
 }
 
@@ -143,7 +143,7 @@ blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -192,7 +192,7 @@ table {
 .name {
   flex: 1;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -206,11 +206,11 @@ table {
 }
 
 .first-page {
-  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 086px;
+  min-height: 85vh;
   background: #1c1a19;
-  background-image: url("./assets/images/Group.png");
-  background-repeat: no-repeat;
-  background-position: 69vw 50vh;
 }
 
 .headline {
@@ -223,7 +223,7 @@ table {
 .hey {
   margin-top: 20vh;
   color: #ff6b00;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -232,7 +232,7 @@ table {
 }
 
 .softwaredev {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -242,7 +242,7 @@ table {
 }
 
 .headline-p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -251,16 +251,28 @@ table {
   max-height: 123px;
 }
 
+.socio-image {
+  display: flex;
+  height: 180px;
+}
+
 .socila-link {
+  margin-top: 20px;
   display: flex;
   gap: 20px;
   color: #dbd8d7;
-  width: 70vw;
-  padding: 12px 35px;
+  width: 60vw;
+  padding-left: 35px;
 }
 
 .social:hover {
   background-color: blue;
+}
+
+.socio-image > img {
+  align-self: center;
+  width: 40vw;
+  height: 250px;
 }
 
 /* Second page and cards */
@@ -269,6 +281,7 @@ table {
   display: grid;
   background: fff;
   margin-right: 1px;
+  padding-left: 3px;
 }
 
 .h21-line {
@@ -282,7 +295,7 @@ table {
   margin-top: 20vw;
   margin-left: 3vw;
   justify-content: left;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -314,7 +327,8 @@ hr.line {
 }
 
 .multi-story {
-  font-family: "Crete Round", sans-serif;
+  padding: 24px 0 12px 0;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -325,7 +339,7 @@ hr.line {
 }
 
 .p21 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -336,6 +350,7 @@ hr.line {
 ul.skills {
   display: flex;
   flex: 1;
+  gap: 12px;
   list-style: none;
   margin-top: 2vh;
 }
@@ -350,7 +365,6 @@ ul.skills {
 }
 
 .skill {
-  margin-left: 6vw;
   padding: 2vw;
   border: 2px solid #8993a4;
 }
@@ -364,7 +378,7 @@ ul.skills {
   background: #ff6b00;
   color: #fff;
   padding: 10px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -387,14 +401,16 @@ ul.skills {
   background-image: url(./assets/images/Placeholder1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 88vw;
+  margin-left: 24px;
+  margin-right: 24px;
+  bottom: 1px solid green;
 }
 
 .prof-art {
-  margin-top: 17vh;
-  margin-left: 6px;
+  margin-top: 90px;
+  padding-left: 12px;
   color: #fff;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -402,9 +418,8 @@ ul.skills {
 }
 
 .p22 {
-  padding: 2vw;
-  margin-left: 6px;
-  font-family: "Inter", sans-serif;
+  padding-left: 12px;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -415,7 +430,7 @@ ul.skills {
 ul.skils {
   display: flex;
   width: 65vw;
-  margin-bottom: 3vh;
+  padding-bottom: 18px;
 }
 
 .see-project-2 :hover {
@@ -433,7 +448,7 @@ ul.skils :first-child {
   padding: 2vw;
   border: 2px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -447,11 +462,11 @@ ul.skils :first-child :hover {
 }
 
 .skil {
-  margin-left: 6vw;
+  margin-left: 12px;
   padding: 2vw;
   border: 2px solid #8993a4;
   background: rgba(255, 255, 255, 0.24);
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -463,7 +478,7 @@ ul.skils :first-child :hover {
   padding: 3vw;
   background: #ff6b00;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -472,8 +487,8 @@ ul.skils :first-child :hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  width: 82vw;
-  margin-bottom: 10vh;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* About me  */
@@ -482,6 +497,7 @@ ul.skils :first-child :hover {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
+  margin-top: 120px;
 }
 
 .about-me {
@@ -493,7 +509,7 @@ ul.skils :first-child :hover {
   margin-top: 10vh;
   margin-left: 18px;
   margin-right: 18px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -506,7 +522,7 @@ ul.skils :first-child :hover {
   margin-top: 20px;
   margin-left: 18px;
   margin-right: 18px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -522,7 +538,7 @@ ul.skils :first-child :hover {
   margin-top: 25px;
   margin-left: 18px;
   width: 143px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -559,7 +575,7 @@ ul.lists {
 }
 
 .Lan {
-  font-family: "InaiMathi", sans-serif;
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -579,7 +595,7 @@ ul.lists {
 .lan-list {
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -590,7 +606,7 @@ ul.lists {
 }
 
 .Frame {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -612,7 +628,7 @@ ul.lists {
 .Frame-list {
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -623,7 +639,7 @@ ul.lists {
 }
 
 .Sk {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -645,7 +661,7 @@ ul.lists {
 .Sk-list {
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -661,6 +677,8 @@ ul.Frame-list,
 ul.Sk-list {
   list-style: none;
 }
+
+/* contact form */
 
 .forms {
   display: flex;
@@ -705,7 +723,7 @@ textarea {
 }
 
 #msg::placeholder {
-  font-family: 'Inter'sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -748,7 +766,7 @@ input:last-child:hover {
   margin-left: 0;
   height: 40px;
   align-items: center;
-  border-top: 1px solid  #dfe1e6;
+  border-top: 1px solid #dfe1e6;
 }
 
 .social-c {
